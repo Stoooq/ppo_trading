@@ -1,4 +1,9 @@
+from src.env import SimpleTradingEnv
+
+
 def main():
+    simple_env = SimpleTradingEnv()
+
     print("Hello from ppo-trading!")
 
 
